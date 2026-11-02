@@ -1,13 +1,72 @@
 
-<section class="portada">
-    <h1>Mi especialidad: Programación</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Página Web</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
 
-    <p>
-        En esta especialidad aprendemos a crear páginas web,
-        programar y utilizar diferentes herramientas tecnológicas.
-        También aprendemos a resolver problemas y trabajar
-        en proyectos que nos pueden servir en el futuro.
-    </p>
+    <header>
+        <h1>Mi Primera Página Web</h1>
+        <p>Aprendiendo desarrollo web</p>
+    </header>
 
-    <a class="boton" href="#habilidades">Ver lo que aprendemos</a>
-</section>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre">Sobre la página</a>
+        <a href="#aprendizaje">Aprendizaje</a>
+    </nav>
+
+    <main>
+        <section id="inicio" class="principal">
+            <h2>¡Bienvenidos!</h2>
+            <p>
+                Esta es mi primera página web creada utilizando HTML y CSS.
+                En ella pongo en práctica mis primeros conocimientos de
+                desarrollo web y programación.
+            </p>
+            <img
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=900"
+                alt="Computador utilizado para programar">
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre este proyecto</h2>
+            <p>
+                El objetivo de este proyecto es aprender a crear una página
+                web, organizar su contenido y darle un diseño utilizando CSS.
+                También aprenderé a publicarla en Internet mediante GitHub Pages.
+            </p>
+        </section>
+
+        <section id="aprendizaje">
+            <h2>Lo que estoy aprendiendo</h2>
+
+            <div class="tarjetas">
+                <article class="tarjeta">
+                    <h3>HTML</h3>
+                    <p>Permite organizar el contenido de una página web.</p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>CSS</h3>
+                    <p>Permite agregar colores, diseños y estilos.</p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>GitHub</h3>
+                    <p>Permite guardar proyectos y publicarlos en Internet.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Mi Primera Página Web | Proyecto de Programación 2026</p>
+    </footer>
+
+</body>
+</html>
